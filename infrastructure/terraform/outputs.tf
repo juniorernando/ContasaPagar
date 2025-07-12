@@ -1,0 +1,1 @@
+# Outputs dos recursos criados

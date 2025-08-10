@@ -1,8 +1,6 @@
 from sqlalchemy import Column, Integer, String, Float, Date, Enum, ForeignKey
-from sqlalchemy.ext.declarative import declarative_base
+from .base import Base
 import enum
-
-Base = declarative_base()
 
 class Status(enum.Enum):
     ABERTA = 'Aberta'

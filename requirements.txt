@@ -1,7 +1,8 @@
 sqlalchemy
-pydantic
+pydantic[email]
 boto3
 loguru
 pytest
 pytest-mock
 psycopg2-binary
+email-validator
